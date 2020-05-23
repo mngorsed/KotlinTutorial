@@ -1,0 +1,45 @@
+package com.bkcsdo.kotlintutorial
+
+data class Hobby(var title: String)
+object Supplier {
+    val hobbies = listOf(
+        Hobby("Swimming"),
+        Hobby("Reading"),
+        Hobby("Running"),
+        Hobby("Sleeping"),
+        Hobby("Programming"),
+        Hobby("Gaming"),
+        Hobby("Studying"),
+        Hobby("Jogging"),
+        Hobby("Watching TV"),
+        Hobby("Fishing"),
+        Hobby("Shopping"),
+        Hobby("Driving"),
+        Hobby("Watching Movie"),
+        Hobby("Searching"),
+        Hobby("Climbing"),
+        Hobby("Paragliding"),
+        Hobby("Gardening"),
+        Hobby("Drawing"),
+        Hobby("Learning"),
+        Hobby("Feeding"),
+        Hobby("Hand Crafting"),
+        Hobby("Teaching"),
+        Hobby("Listening"),
+        Hobby("Washing"),
+        Hobby("Baby Sitting"),
+        Hobby("Playing Soccer"),
+        Hobby("Playing basketball"),
+        Hobby("Playing tennis"),
+        Hobby("Playing volleyball"),
+        Hobby("Playing golf"),
+        Hobby("Fixing"),
+        Hobby("Cycling"),
+        Hobby("Bowling"),
+        Hobby("Table tennis"),
+        Hobby("Writing"),
+        Hobby("Yoga"),
+        Hobby("Photography"),
+        Hobby("Hiking")
+    )
+}
