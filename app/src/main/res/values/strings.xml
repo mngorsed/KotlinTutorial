@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">KotlinTutorial</string>
+    <string name="app_name">Kotlin Tutorial</string>
+    <string name="btn_show_toast">Show Toast</string>
+    <string name="str_enter_your_message">Enter Your Message</string>
+    <string name="btn_send_message">Send Message To Next Activity</string>
+    <string name="btn_share_pps">Share to other Apps</string>
+    <string name="btn_recycler_view">Recycler View Demo</string>
+    <string name="context_was_clicked">ApplicationContext button was clicked</string>
+    <string name="btn_second_button">Second button was clicked</string>
+    <string name="str_please_select_app">Please select app:</string>
 </resources>

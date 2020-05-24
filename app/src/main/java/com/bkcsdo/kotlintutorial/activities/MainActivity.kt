@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnShowToast.setOnClickListener {
-            Log.d(TAG,"ApplicationContext button was clicked")
-            showToast("ApplicationContext button was clicked",Toast.LENGTH_LONG)
+            Log.d(TAG,resources.getString(R.string.context_was_clicked))
+            showToast(resources.getString(R.string.context_was_clicked),Toast.LENGTH_LONG)
         }
         //Explicit Intent
         btnSendMessage.setOnClickListener {
-            Log.d("MN", "Second button was clicked")
+            Log.d(TAG, resources.getString(R.string.btn_second_button))
             val message: String  = etUserMessage.text.toString()
             //This is Explicit intent : we know the target activity
             val intent = Intent(this, SecondActivity::class.java)
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             intent.action = Intent.ACTION_SEND
             intent.putExtra(Intent.EXTRA_TEXT,message)
             intent.type = "text/plain"
-            startActivity(Intent.createChooser(intent,"Please select app:"))
+            startActivity(Intent.createChooser(intent,resources.getString(R.string.str_please_select_app)))
         }
         btnRecyclerViewDemo.setOnClickListener {
             val intent = Intent(this, HobbiesActivity::class.java)

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">การสอนคอทลิน</string>
+    <string name="btn_show_toast">แสดงขนมปัง</string>
+    <string name="str_enter_your_message">ใส่ข้อความของคุณ</string>
+    <string name="btn_send_message">ส่งข้อความถึงกิจกรรมถัดไป</string>
+    <string name="btn_share_pps">แบ่งปันไปที่แอพอื่น</string>
+    <string name="btn_recycler_view">รีไซเคิลดูตัวอย่าง</string>
+    <string name="context_was_clicked">คลิกปุ่ม ApplicationContext</string>
+    <string name="btn_second_button">คลิกปุ่มที่สอง</string>
+    <string name="str_please_select_app">กรุณาเลือกแอพ:</string>
+</resources>

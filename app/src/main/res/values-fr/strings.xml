@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tutoriel Kotlin</string>
+    <string name="btn_show_toast">Afficher le toast</string>
+    <string name="str_enter_your_message">Entrez votre message</string>
+    <string name="btn_send_message">Envoyer un message à l\'activité suivante</string>
+    <string name="btn_share_pps">Partager avec d\'autres applications</string>
+    <string name="btn_recycler_view">Recycler Voir la démo</string>
+    <string name="context_was_clicked">Le bouton ApplicationContext a été cliqué</string>
+    <string name="btn_second_button">Le deuxième bouton a été cliqué</string>
+    <string name="str_please_select_app">Veuillez sélectionner l\'application:</string>
+</resources>
