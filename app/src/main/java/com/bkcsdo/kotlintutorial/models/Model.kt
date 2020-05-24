@@ -1,4 +1,4 @@
-package com.bkcsdo.kotlintutorial
+package com.bkcsdo.kotlintutorial.models
 
 data class Hobby(var title: String)
 object Supplier {
